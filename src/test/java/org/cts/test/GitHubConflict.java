@@ -14,7 +14,7 @@ public class GitHubConflict {
 	public static void main(String[] args) throws IOException
 
 	{
-	File f= new File("C:\\Users\\PMV\\eclipse-workspace\\GitHibConflictCheck\\TestData\\Excel_Read.xlsx");
+	File f= new File("C:\\Users\\PMV\\Desktop\\Master Clone\\AirCanadaSez\\TestData\\Excel_Read.xlsx");
 	FileInputStream a=new FileInputStream(f);
 	Workbook w= new XSSFWorkbook(a);
 	
@@ -49,8 +49,11 @@ public class GitHubConflict {
 	}	
 	
 	}
+	//Code changes made by Teammember1
+	System.out.println("Code added for Excel Write");
 	//Code changes made by Teammember2
-	System.out.println("Code added for Excel Update");
+    System.out.println("Code added for Excel Update");
+
 }
 
 }
